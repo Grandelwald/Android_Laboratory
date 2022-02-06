@@ -11,6 +11,9 @@
         <entry key="fragmentproject/src/main/res/layout/activity_main.xml" value="0.2833333333333333" />
         <entry key="fragmentproject/src/main/res/layout/fragment_text.xml" value="0.2833333333333333" />
         <entry key="fragmentproject/src/main/res/layout/fragment_toolbar.xml" value="0.26927083333333335" />
+        <entry key="mvvmfragmentproject/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="mvvmfragmentproject/src/main/res/layout/fragment_text.xml" value="0.15052083333333333" />
+        <entry key="mvvmfragmentproject/src/main/res/layout/fragment_toolbar.xml" value="0.34445768772348034" />
       </map>
     </option>
   </component>

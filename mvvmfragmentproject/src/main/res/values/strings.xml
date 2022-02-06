@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MVVMFragmentProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_string_change_me">my String Change me</string>
+</resources>
