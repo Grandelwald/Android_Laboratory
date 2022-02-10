@@ -10,3 +10,4 @@ rootProject.name = "Android_Lab"
 include ':app'
 include ':fragmentproject'
 include ':mvvmfragmentproject'
+include ':dailydiary'
