@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.Observer
 import com.example.viewmodeldemo.R
 import com.example.viewmodeldemo.databinding.MainFragmentBinding
 
@@ -30,12 +31,16 @@ class MainFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
-        binding.resultText.text = viewModel.getResult().toString()
+
+        val resultObserver = Observer<Float> {
+            result -> binding.resultText.text = result.toString()
+        }
+
+        viewModel.getResult().observe(viewLifecycleOwner,resultObserver)
 
         binding.convertButton.setOnClickListener {
             if(binding.dollorText.text.isNotEmpty()) {
                 viewModel.setAmount(binding.dollorText.text.toString())
-                binding.resultText.text = viewModel.getResult().toString()
             }
             else{
                 binding.resultText.text = "No value"
