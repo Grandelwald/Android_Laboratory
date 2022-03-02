@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_sparkBest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스파크 최고"
+        android:textColor="#C36F6F"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429"
+        />
+
+    <Button
+        android:id="@+id/button_goingToTimerActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이거 누르면 Timer화면으로 간다."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView_sparkBest"
+        app:layout_constraintEnd_toEndOf="@+id/textView_sparkBest"
+        android:layout_marginBottom="20dp"
+        />
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/textView_sparkBest"
+        app:layout_constraintStart_toStartOf="@id/textView_sparkBest"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+
+ />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
