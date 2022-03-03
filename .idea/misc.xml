@@ -8,6 +8,9 @@
         <entry key="app/src/main/res/layout/activity_fragment_contain.xml" value="0.28177083333333336" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2828125" />
         <entry key="app/src/main/res/layout/fragment_sample1.xml" value="0.28177083333333336" />
+        <entry key="asyncdemo/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="asyncdemo/src/main/res/layout/activity_sub.xml" value="0.25833333333333336" />
+        <entry key="asyncdemo/src/main/res/layout/item_example_list.xml" value="0.25833333333333336" />
         <entry key="fragmentproject/src/main/res/layout/activity_main.xml" value="0.2833333333333333" />
         <entry key="fragmentproject/src/main/res/layout/fragment_text.xml" value="0.2833333333333333" />
         <entry key="fragmentproject/src/main/res/layout/fragment_toolbar.xml" value="0.26927083333333335" />
