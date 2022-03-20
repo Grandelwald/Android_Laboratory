@@ -1,14 +1,13 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-kapt'
 }
 
 android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.corutinedemo"
+        applicationId "com.example.myapplication"
         minSdk 26
         targetSdk 31
         versionCode 1
@@ -30,9 +29,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    buildFeatures {
+
+    buildFeatures{
         viewBinding true
-        dataBinding true
     }
 }
 
@@ -45,10 +44,4 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-
-    // corutine library
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0'
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0")
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1'
-
 }
